@@ -17,7 +17,7 @@ jobs:
     - name: Jenkins Pipeline
       uses: appleboy/jenkins-action@master
       with:
-        url: 'http://localhost:8080/'
+        url: 'http://localhost:8080/job'
         user: ${{ secrets.JENKINS_USERNAME }}
         token: ${{ secrets.JENKINS_TOKEN }}
         job: 'Teste'
